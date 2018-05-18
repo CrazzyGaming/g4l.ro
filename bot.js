@@ -13,7 +13,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === '/forum') {
-    	message.reply('Forumul nostru este http://forum.g4l.ro/');
+    	message.reply('Forumul este in lucru.');
   	}
 });
 
