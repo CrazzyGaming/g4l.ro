@@ -17,6 +17,12 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === '/ip') {
+    	message.reply('Serverul este in lucru.');
+  	}
+});
+
 
 
 
