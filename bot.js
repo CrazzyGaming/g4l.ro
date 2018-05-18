@@ -17,13 +17,7 @@ client.on('message', message => {
   	}
 });
 
-});
 
-client.on('message', message => {
-    if (message.content === '/ip') {
-    	message.reply('Server-ul va fi deschis pe data de 16.06.2018.');
-  	}
-});
 
 
 // THIS  MUST  BE  THIS  WAY
