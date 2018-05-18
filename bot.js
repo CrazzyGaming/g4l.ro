@@ -6,19 +6,19 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '/panel') {
+    if (message.content === '!panel') {
     	message.reply('Panelul este in lucru.');
   	}
 });
 
 client.on('message', message => {
-    if (message.content === '/forum') {
+    if (message.content === '!forum') {
     	message.reply('Forumul este in lucru.');
   	}
 });
 
 client.on('message', message => {
-    if (message.content === '/ip') {
+    if (message.content === '!ip') {
     	message.reply('Serverul este in lucru.');
   	}
 });
