@@ -7,13 +7,21 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '/panel') {
-    	message.reply('Panelul nostru este http://panel.g4l.ro/');
+    	message.reply('Panelul este in lucru.');
   	}
 });
 
 client.on('message', message => {
     if (message.content === '/forum') {
     	message.reply('Forumul nostru este http://forum.g4l.ro/');
+  	}
+});
+
+});
+
+client.on('message', message => {
+    if (message.content === '/ip') {
+    	message.reply('Server-ul va fi deschis pe data de 16.06.2018.');
   	}
 });
 
