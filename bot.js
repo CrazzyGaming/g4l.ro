@@ -6,14 +6,14 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.channel.send('PONG!');
+    if (message.content === '/panel') {
+    	message.reply('Panelul nostru este panel.g4l.ro.');
   	}
 });
 
 client.on('message', message => {
-    if (message.content === 'bing') {
-    	message.reply('BONG!');
+    if (message.content === '/forum') {
+    	message.reply('Forumul nostru este forum.g4l.ro.');
   	}
 });
 
