@@ -19,7 +19,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === '!ip') {
-    	message.reply('Serverul este in lucru.');
+    	message.reply('Serverul este in lucru, deschiderea va avea loc pe data de 16.06.2018.');
   	}
 });
 
