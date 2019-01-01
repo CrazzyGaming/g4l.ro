@@ -7,19 +7,19 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '!panel') {
-    	message.reply('Panelul este in lucru.');
+    	message.reply('Panelul nostru este http://panel.g4l.ro/');
   	}
 });
 
 client.on('message', message => {
     if (message.content === '!forum') {
-    	message.reply('Forumul este in lucru.');
+    	message.reply('Forumul nostru este http://forum.g4l.ro/');
   	}
 });
 
 client.on('message', message => {
     if (message.content === '!ip') {
-    	message.reply('Serverul este in lucru.');
+    	message.reply('IP-UL/DNS-UL nostru este rpg.g4l.ro');
   	}
 });
 
